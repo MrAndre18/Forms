@@ -2,10 +2,9 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Step1 from './components/steps/Step1';
-
-const Step2 = () => <>Step 2</>
-const Step3 = () => <>Step 3</>
-const Result = () => <>Result</>
+import Step2 from './components/steps/Step2';
+import Step3 from './components/steps/Step3';
+import Result from './components/steps/Result';
 
 function App() {
   return (
